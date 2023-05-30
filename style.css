@@ -1,0 +1,350 @@
+body {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  color: #191826;
+  background-image: url(assets/bg-main-mobile.png);
+  background-repeat: no-repeat;
+  background-position: right -210px top -262px;
+}
+header {
+  width: 100%;
+}
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.equalizer {
+  margin: 39.99px 0 64px 24px;
+}
+.text-div-h1 {
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: -0.45px;
+  margin: 0 24px 20px 24px;
+}
+.text-div-p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  margin: 0 24px 166px 24px;
+}
+.phone-pay {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+.phone-div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  width: 375px;
+  min-height: 600px;
+  background-color: #191826;
+  border-radius: 12px;
+}
+.patern {
+  width: 280px;
+  height: 420px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.phone {
+  position: absolute;
+  top: -98px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 209px;
+  height: 430px;
+  z-index: 2;
+}
+.pay-div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: #fa7453;
+  border-radius: 12px;
+  color: #fcfaf9;
+  position: absolute;
+  top: 380px;
+  width: 375px;
+}
+.phone-pay-h1 {
+  font-size: 32px;
+  line-height: 40px;
+  align-self: flex-start;
+  margin: 48px 0 12px 36px;
+}
+.phone-pay-p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  width: 28ch;
+  margin-bottom: 36px;
+}
+.price-month {
+  display: flex;
+  align-items: center;
+  margin: 0 0 32px 42px;
+  gap: 16px;
+  align-self: flex-start;
+}
+.dollar {
+  font-size: 65px;
+  line-height: 52px;
+  align-self: flex-start;
+}
+.month {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: -0.2px;
+  margin-left: 16px;
+}
+.ios {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: #191826;
+  border-radius: 12px;
+  letter-spacing: -0.18px;
+  font-size: 18px;
+  line-height: 32px;
+  color: #fcfaf9;
+  border: none;
+  padding: 15px 77px 14px 77px;
+  margin-bottom: 16px;
+  cursor: pointer;
+}
+.ios:hover {
+  background-color: #66e2dc;
+}
+.android {
+  padding: 15px 57.5px 14px 59px;
+  margin-bottom: 48px;
+  background: #fcfaf9;
+  color: #191826;
+}
+.android:hover {
+  background-color: #ffb964;
+}
+footer {
+  width: 100%;
+  margin-top: 326px;
+  display: flex;
+  flex-direction: column;
+}
+.footer-equilizer {
+  align-self: flex-start;
+  margin: 64px 0 32px 25px;
+}
+.footer-p {
+  font-size: 16px;
+  line-height: 26px;
+  margin: 0 55px 64px 24px;
+}
+span {
+  font-weight: 400;
+}
+.fb {
+  margin: 0 20px 80px 24px;
+  cursor: pointer;
+}
+.ig {
+  margin: 0 20px 80px 0;
+  cursor: pointer;
+}
+.tw {
+  margin: 0 0 81.5px 0;
+  cursor: pointer;
+}
+.fb:hover,
+.ig:hover,
+.tw:hover {
+  filter: invert(48%) sepia(89%) saturate(411%) hue-rotate(324deg)
+    brightness(100%) contrast(97%);
+}
+@media only screen and (min-width: 768px) {
+  body {
+    background-image: url(assets/bg-pattern-1.svg),
+      url(assets/bg-main-tablet.png);
+    background-repeat: no-repeat;
+    background-position: right -30px top -29px, right -87px top -262px;
+    background-size: 266.67px 400px, auto;
+  }
+  .equalizer {
+    margin: 62px 0 95px 39px;
+  }
+  .text-div-h1 {
+    font-size: 64px;
+    line-height: 64px;
+    letter-spacing: -0.73px;
+    margin: 0 209px 39px 39px;
+  }
+  .text-div-p {
+    font-size: 18px;
+    line-height: 28px;
+    margin: 0 215px 249px 39px;
+  }
+  .phone-pay {
+    width: fit-content;
+    align-self: center;
+  }
+  .phone-div {
+    width: 696px;
+    min-height: 600px;
+  }
+  .patern {
+    top: -31px;
+    left: 229px;
+    transform: translate(0, 0);
+  }
+  .phone {
+    top: -138px;
+    left: 64px;
+    transform: translate(0, 0);
+    width: 270px;
+    height: 556px;
+  }
+  .pay-div {
+    top: 150px;
+    left: 239px;
+    width: 399px;
+    z-index: 5;
+  }
+  .phone-pay-h1 {
+    font-size: 40px;
+    line-height: 52px;
+    margin: 48px 0 12px 48px;
+  }
+  footer {
+    margin-top: 96px;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .footer-text-div {
+    margin-right: 230px;
+  }
+  .footer-equilizer {
+    align-self: flex-start;
+    margin: 87px 0 32px 34px;
+  }
+  .footer-p {
+    margin: 0 0 85px 33px;
+  }
+  .icon-div {
+    margin-right: 39px;
+    display: flex;
+  }
+  .fb {
+    margin: 181px 20px 114px 0;
+  }
+  .ig {
+    margin: 181px 20px 114px 0;
+  }
+  .tw {
+    margin: 181px 0 115.5px 0;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  body {
+    background-image: url(assets/bg-pattern-1.svg),
+      url(assets/bg-main-desktop.png);
+    background-repeat: no-repeat;
+    background-position: right 0px top -38px, right -180px top -281px;
+    background-size: 312px 468px, auto;
+  }
+  .equalizer {
+    margin: 62px 0 127px 165px;
+  }
+  .text-div-h1 {
+    font-size: 88px;
+    line-height: 88px;
+    letter-spacing: -1px;
+    margin: 0 260px 40px 165px;
+  }
+  .text-div-p {
+    font-size: 20px;
+    line-height: 34px;
+    margin: 0 450.5px 321px 164.5px;
+  }
+  .phone-div {
+    width: 1110px;
+    min-height: 600px;
+  }
+  .patern {
+    top: -40px;
+    left: 336px;
+    width: 312px;
+    height: 468px;
+  }
+  .phone {
+    top: -213px;
+    left: 102px;
+    width: 312px;
+    height: 662px;
+  }
+  .pay-div {
+    top: 90px;
+    left: 569px;
+    width: 446px;
+    z-index: 5;
+  }
+  .phone-pay-h1 {
+    margin: 58px 0 22px 54px;
+  }
+  .phone-pay-p {
+    font-size: 20px;
+    line-height: 34px;
+    width: 27.5ch;
+    margin-bottom: 39px;
+  }
+  .price-month {
+    margin: 0 0 46px 54px;
+  }
+  .ios {
+    letter-spacing: -0.18px;
+    padding: 15px 95px 14px 96px;
+  }
+  .android {
+    padding: 15px 76.5px 14px 77px;
+  }
+  footer {
+    margin-top: 115px;
+  }
+  .footer-text-div {
+    display: flex;
+    align-items: flex-start;
+    width: 45%;
+    justify-content: space-between;
+    margin: 87px 0 0 166px;
+  }
+  .footer-equilizer {
+    align-self: flex-start;
+    margin: 0;
+  }
+  .footer-p {
+    margin: 0;
+    width: 38ch;
+  }
+  .icon-div {
+    margin-right: 165px;
+  }
+  .fb {
+    margin: 116px 20px 121px 0;
+  }
+  .ig {
+    margin: 116px 20px 121px 0;
+  }
+  .tw {
+    margin: 116px 0 122.5px 0;
+  }
+}
